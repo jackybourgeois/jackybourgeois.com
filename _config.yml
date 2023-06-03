@@ -13,17 +13,19 @@ baseurl: ""
 lang: en
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone: Asia/Shanghai
+timezone: Europe/Amsterdam
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy # the main title
+title: Jacky Bourgeois # the main title
 
-tagline: A text-focused Jekyll theme # it will display as the sub-title
+tagline: Data-Centric Design # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+  I develop technological tools to support the use of machine data by designers.
+  I am an assistant professor of Data-Centric Design with the Department of
+  Sustainable Design Engineering (SDE) of the Faculty of Industrial Design Engineering (IDE).
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: ""
@@ -80,7 +82,7 @@ theme_mode: # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: /assets/img/jacky_bourgeois.jpg
 
 # boolean type, the global switch for TOC in posts.
 toc: true
