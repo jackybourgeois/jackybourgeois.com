@@ -90,6 +90,31 @@ tail_includes:
 </div> <!-- .post-meta -->
 
 <div class="post-content">
+  {% if page.podcast %}
+  <div style="text-align:center;margin:30px">
+    <div>
+      <audio controls>
+        <source src="{{ page.podcast }}" type="audio/ogg">
+      </audio>
+    </div>
+    <div>
+      <a href="{{ site.baseurl }}{{ page.podcast }}" download="{{ page.title }}" style="text-decoration: none;"
+        target="_blank" rel="noopener noreferrer">
+        <i class="fa fa-download" aria-hidden="true"></i>Download Podcast Episode
+      </a>&nbsp;-&nbsp;
+      <a href="{{ site.baseurl }}/podcast.xml" style="text-decoration: none;" target="_blank"
+        rel="noopener noreferrer">
+        <i class="fa fa-rss" aria-hidden="true"></i>Podcast RSS
+      </a>&nbsp;-&nbsp;
+      <a href="https://podcasts.apple.com/nl/podcast/data-centric-design/id1581554015" style="text-decoration: none;" target="_blank"
+      rel="noopener noreferrer">
+        Listen on Apple Podcast
+      </a>
+    </div>
+  </div>
+
+  {% endif %}
+
   {{ content }}
 </div>
 

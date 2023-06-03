@@ -3,20 +3,69 @@ layout: page
 # All the Tags of posts.
 ---
 
-<div id="tags" class="d-flex flex-wrap mx-xl-2">
-  {% assign tags = '' | split: '' %}
-  {% for t in site.tags %}
-    {% assign tags = tags | push: t[0] %}
-  {% endfor %}
+{% assign tags = '' | split: '' %}
+{% for t in site.tags %}
+  {% assign tags = tags | push: t[0] %}
+{% endfor %}
 
-  {% assign sorted_tags = tags | sort_natural %}
+{% assign sorted_tags = tags | sort_natural %}
+
+<div>
+  <h2>📊 Data, 📱 Technology and 🪚 Design</h2>
+</div>
+
+<div id="tags1" class="d-flex flex-wrap ml-xl-2 mr-xl-2">
+  {% for t in sorted_tags %}
+    <div>
+      {% if t contains "📊" or t contains "🪚" or t contains "📱" %}
+      <a class="tag" href="{{ site.baseurl }}/topics/{{ t | slugify | url_encode }}/">{{ t }}<span class="text-muted">{{ site.tags[t].size }}</span></a>
+      {% endif %}
+    </div>
+  {% endfor %}
+</div>
+
+<div>
+  <h2>⚡ Energy, 🚌 Mobility and 🌱 Sustainability</h2>
+</div>
+
+
+<div id="tags2" class="d-flex flex-wrap ml-xl-2 mr-xl-2">
 
   {% for t in sorted_tags %}
     <div>
-      <a class="tag" href="{{ t | slugify | url_encode | prepend: '/tags/' | append: '/' | relative_url }}">
-        {{ t -}}
-        <span class="text-muted">{{ site.tags[t].size }}</span>
-      </a>
+      {% if t contains "⚡" or t contains "🌱" or t contains "🚌" %}
+      <a class="tag" href="{{ site.baseurl }}/topics/{{ t | slugify | url_encode }}/">{{ t }}<span class="text-muted">{{ site.tags[t].size }}</span></a>
+      {% endif %}
+    </div>
+  {% endfor %}
+</div>
+
+<div>
+  <h2>🍎 Health and Wellbeing</h2>
+</div>
+
+
+<div id="tags3" class="d-flex flex-wrap ml-xl-2 mr-xl-2">
+  {% for t in sorted_tags %}
+    <div>
+      {% if t contains "🍎" %}
+      <a class="tag" href="{{ site.baseurl }}/topics/{{ t | slugify | url_encode }}/">{{ t }}<span class="text-muted">{{ site.tags[t].size }}</span></a>
+      {% endif %}
+    </div>
+  {% endfor %}
+</div>
+
+<div>
+  <h2>👐🏼 Responsibility</h2>
+</div>
+
+
+<div id="tags4" class="d-flex flex-wrap ml-xl-2 mr-xl-2">
+  {% for t in sorted_tags %}
+    <div>
+      {% if t contains "👐🏼" %}
+      <a class="tag" href="{{ site.baseurl }}/topics/{{ t | slugify | url_encode }}/">{{ t }}<span class="text-muted">{{ site.tags[t].size }}</span></a>
+      {% endif %}
     </div>
   {% endfor %}
 </div>

@@ -21,8 +21,33 @@
       <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
     </div>
     <div class="site-subtitle fst-italic">{{ site.tagline }}</div>
+
+    <div itemscope itemtype="https://schema.org/Person" style="margin-top: 10px;">
+      <a itemprop="sameAs" title="ORCID Profile"
+          content="https://orcid.org/0000-0003-1090-5703" href="https://orcid.org/0000-0003-1090-5703"
+          target="orcid.widget" rel="me noopener noreferrer" style="vertical-align:top;">
+          <img src="/assets/img/orcid.svg" style="width:1em;margin-right:.5em;" alt="ORCID Profile">
+      </a>
+      <a itemprop="sameAs" title="Google Scholar Profile"
+          content="https://scholar.google.com/citations?user=GKJDRe8AAAAJ&hl=en" href="https://scholar.google.com/citations?user=GKJDRe8AAAAJ&hl=en"
+          target="_blank" rel="me noopener noreferrer" style="vertical-align:top;">
+          <img src="/assets/img/scholar.svg" style="width:1em;margin-right:.5em;" alt="Google Scholar Profile">
+      </a>
+      <a itemprop="sameAs" title="LinkedIn Profile"
+          content="https://www.linkedin.com/in/jackybourgeois" href="https://www.linkedin.com/in/jackybourgeois"
+          target="_blank" rel="me noopener noreferrer" style="vertical-align:top;">
+          <img src="/assets/img/linkedin.png" style="width:1em;margin-right:.5em;" alt="LinkedIn Profile">
+      </a>
+      <a itemprop="sameAs" title="TU Delft Profile"
+          content="https://www.tudelft.nl/en/ide/about-ide/people/bourgeois-j/" href="https://www.tudelft.nl/en/ide/about-ide/people/bourgeois-j/"
+          target="_blank" rel="me noopener noreferrer" style="vertical-align:top;">
+          <img src="/assets/img/tudelft.png" style="width:1em;margin-right:.5em;" alt="TU Delft Profile">
+      </a>
+    </div>
   </div>
   <!-- .profile-wrapper -->
+
+  
 
   <ul class="nav flex-column flex-grow-1 w-100 ps-0">
     <!-- home -->
@@ -70,7 +95,7 @@
             javascript:location.href = 'mailto:' + ['{{ email[0] }}','{{ email[1] }}'].join('@')
           {%- endcapture -%}
         {% when 'rss' %}
-          {% assign url = '/feed.xml' | relative_url %}
+          {% assign url = '/podcast.xml' | relative_url %}
         {% else %}
           {% assign url = entry.url %}
       {% endcase %}

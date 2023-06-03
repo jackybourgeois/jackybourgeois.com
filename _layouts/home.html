@@ -3,6 +3,8 @@ layout: page
 refactor: true
 ---
 
+{{ content | markdownify }}
+
 {% include lang.html %}
 
 {% assign pinned = site.posts | where: 'pin', 'true' %}
