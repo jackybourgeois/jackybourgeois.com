@@ -1,6 +1,6 @@
 ---
 title: "🚩 [Closed] Donor's Badges: Promoting Designerly Data Donation through Behaviour Sharing"
-author: "Alejandra Gomez Ortega"
+author: alejandra
 date: 2021-07-29
 categories: [🚩 Vacancies]
 tags: [Master 🎓,IDE 🎓,Data Donation 📊]

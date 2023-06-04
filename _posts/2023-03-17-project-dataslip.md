@@ -1,6 +1,6 @@
 ---
 title: "🚧 DataSlip"
-author: "Alejandra Gomez Ortega, **Jacky Bourgeois**"
+authors: [alejandra,jacky]
 date: 2023-03-17
 categories: [Research, 🚧 Projects]
 tags: [Data Donation 📊, Data Literacy 📊, Human-Data Relations 📊, Prototyping 🪚]

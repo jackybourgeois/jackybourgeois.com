@@ -1,6 +1,6 @@
 ---
 title: "🚩 [Open] Prototyping an Open Source Connected E-Bike for Remote Study"
-author: "Wo Meijer"
+author: wo
 date: 2021-10-29
 categories: [🚩 Vacancies]
 tags: [Master 🎓,IDE 🎓,E-Bike 🚌,Open-Source 👐🏼,Data Tool 📊]

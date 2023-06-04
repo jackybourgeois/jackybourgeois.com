@@ -1,6 +1,7 @@
 ---
 title: "🎙️ Conversation with Sandy Gould - Data Consumption and Experiences in the Research Process"
-author: "Speaker: Sandy Gould, Host: **Jacky Bourgeois**"
+author: jacky
+speaker: sandy
 date: 2022-10-21
 categories: [Research, 🎙️ Podcast]
 tags: [Data-Centric Design 📊,Podcast 🎙️,Consumption Experience 📊]

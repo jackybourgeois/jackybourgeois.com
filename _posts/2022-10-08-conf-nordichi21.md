@@ -1,6 +1,6 @@
 ---
 title: "📜 NordiCHI'22 Reconstructing Intimate Contexts through Data Donation: A Case Study in Menstrual Tracking Technologies"
-author: "Alejandra Gomez Ortega, **Jacky Bourgeois**, Gerd Kortuem"
+authors: [alejandra,jacky,gerd]
 date: 2022-08-09
 categories: [Research,📜 Publications]
 tags: [Conference 📗,NordiCHI 🎯,Data Donation 📊,Menstruation 🍎]

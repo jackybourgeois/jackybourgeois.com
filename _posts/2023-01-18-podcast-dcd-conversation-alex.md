@@ -1,6 +1,7 @@
 ---
 title: "🎙️ Conversation with Alex Bowyer - Understanding and Improving Human-Data Relations"
-author: "Speaker: Alex Bowyer, Host: **Jacky Bourgeois**"
+author: jacky
+speaker: alex
 date: 2023-01-18
 categories: [Research, 🎙️ Podcast]
 tags: [Data-Centric Design 📊,Podcast 🎙️, Human-Data Relations 📊]

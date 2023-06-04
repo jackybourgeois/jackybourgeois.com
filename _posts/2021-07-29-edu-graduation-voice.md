@@ -1,6 +1,6 @@
 ---
 title: "🚩 [Closed] Public Installation for Voice Data Donation on Campus"
-author: "Alejandra Gomez Ortega"
+author: alejandra
 date: 2021-07-29
 categories: [🚩 Vacancies]
 tags: [Master 🎓,IDE 🎓,Data Donation 📊]

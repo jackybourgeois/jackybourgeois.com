@@ -83,6 +83,13 @@ tail_includes:
         </a>
         {% endif %}
       {% endif %}
+
+      {% if page.speaker %}
+        with
+        <a href="{{ site.data.authors[page.speaker].url }}">
+          {{ site.data.authors[page.speaker].name }}
+        </a>
+      {% endif %}
       </em>
     </span>
 

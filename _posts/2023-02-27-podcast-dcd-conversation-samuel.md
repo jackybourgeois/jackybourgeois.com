@@ -1,6 +1,7 @@
 ---
 title: "🎙️ Conversation with Samuel Huron - Making with Data"
-author: "Speaker: Samuel Huron, Host: **Jacky Bourgeois**"
+author: jacky
+speaker: samuel
 date: 2023-02-27
 categories: [Research, 🎙️ Podcast]
 tags: [Data-Centric Design 📊,Podcast 🎙️, Data Physicalisation 📊]

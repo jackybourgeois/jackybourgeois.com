@@ -1,6 +1,7 @@
 ---
 title: "🎙️ Conversation with Yvette Shen - The Quantified and Qualified Self: Digitizing, Visualizing, and Introspection"
-author: "Speaker: Yvette Shen, Host: **Jacky Bourgeois**"
+author: jacky
+speaker: yvette
 date: 2022-05-31
 categories: [Research, 🎙️ Podcast]
 tags: [Data-Centric Design 📊,Podcast 🎙️,Visualisation 📊]

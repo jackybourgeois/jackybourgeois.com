@@ -1,6 +1,7 @@
 ---
 title: "🎙️ Conversation with Marit Bentvelzen - Reflection by Interaction"
-author: "Speaker: Marit Bentvelzen, Host: **Jacky Bourgeois**"
+author: jacky
+speaker: marit
 date: 2023-05-30
 categories: [Research, 🎙️ Podcast]
 tags: [Data-Centric Design 📊,Podcast 🎙️, Data Physicalisation 📊, Data Reflection 📊]

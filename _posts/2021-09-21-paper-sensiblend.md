@@ -1,6 +1,6 @@
 ---
 title: "📜 Towards Designerly Data Donation"
-author: "Alejandra Gomez Ortega, **Jacky Bourgeois**, Gerd Kortuem"
+authors: [alejandra,jacky,gerd]
 date: 2021-09-21
 categories: [Research,📜 Publications]
 tags: [Workshop 📘,UbiComp 🎯]

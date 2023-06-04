@@ -1,6 +1,6 @@
 ---
 title: "📜 AIEDAM Perspective on Data-Enabled Design – Design Meet Data Science"
-author: "**Jacky Bourgeois**, Maaike Kleinsmann"
+authors: [jacky,maaike]
 date: 2023-02-28
 categories: [Research,📜 Publications]
 tags: [Editorial 📕,AIEDAM 🎯, Data-Enabled Design 📊]
