@@ -1,6 +1,8 @@
 ---
 title: "🛠️ IoT ML Kit"
-author: "Alan Roukema, Gijs Volkers, Skip Doorn, Sophie Vlot and Ian Tiemann (Supervision: **Jacky Bourgeois**, Dave Murray Rust, Kostas Tsiakas)"
+authors: [alan,gijs,skip,sophie,ian]
+chair: jacky
+mentor: dave # and kostas
 date: 2023-02-02
 categories: [Research, 🛠️ Tools]
 tags: [Machine Learning 📱, Data Tool 📊, Prototyping 🪚, Open-Source 👐🏼]

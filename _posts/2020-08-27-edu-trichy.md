@@ -1,6 +1,9 @@
 ---
 title: "🎓 Design of Midway Energy (Middleware System) as part of Illuminator"
-author: "Trichy Siva Raman (Chair: M. Popov, Mentors: Milos Cvetkovic, Arjen van der Meer, External examiner: **Jacky Bourgeois**)"
+author: trichy
+chair: popov
+mentor: milos # and arjen
+external: jacky
 date: 2020-08-27
 categories: [Education,🎓Graduation Projects]
 tags: [Master 🎓,EEMCS 🎓,Illuminator 🚧,Energy ⚡,Internet of Things 📱,Raspberry Pi 📱]

@@ -1,6 +1,7 @@
 ---
 title: "🚧 Ethnography of Craftsmanship at the Dutch Design Week"
-author: "Ruixuan Zhang, Shicheng Huo, Xiangyu Li, Supervisor: **Jacky Bourgeois**"
+authors: [ruixuan,shicheng,xiangyu]
+chair: jacky
 date: 2022-11-09
 categories: [Research, 🚧 Projects]
 tags: [Craftsmanship 🪚]

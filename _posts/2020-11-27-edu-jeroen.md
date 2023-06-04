@@ -1,6 +1,9 @@
 ---
 title: "🎓 Blockchain as a Solution to Collective Servitization"
-author: "Jeroen van Welsenes (Chair: Conny Bakker and René Klein (Leiden University), Mentor: **Jacky Bourgeois**)"
+author: jeroen
+chair: conny
+mentor: jacky
+external: rene
 date: 2020-11-27
 categories: [Education,🎓Graduation Projects]
 tags: [Master 🎓,IDE 🎓,Circular Economy 🌱,Blockchain 📱]

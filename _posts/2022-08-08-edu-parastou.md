@@ -1,6 +1,8 @@
 ---
 title: "🎓 Towards blended care: Tailored and adaptive coaching for Cardiac Rehabilitation"
-author: "Parastou Raeis Ghanavati (Chair: Natalia Romero Herrera, Mentor: **Jacky Bourgeois**, Company Mentor: Janne van Kollenburg)"
+author: parastou
+chair: natalia
+mentor: jacky
 date: 2022-08-08
 categories: [Education,🎓Graduation Projects]
 tags: [Master 🎓,IDE 🎓,Philips 💰,Data-Enabled Design 📊,Patient-Centered Care 🍎]

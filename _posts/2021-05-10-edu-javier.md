@@ -1,6 +1,8 @@
 ---
 title: "🎓 Service Design for Supportive Health Systems"
-author: "Javier Poves (Chair: Maaike Kleinsmann, Mentor: **Jacky Bourgeois**)"
+author: javier
+chair: maaike
+mentor: jacky
 date: 2021-05-10
 categories: [Education,🎓Graduation Projects]
 tags: [Master 🎓,IDE 🎓,Clear 💰,E-health 🍎,Nutrition 🍎]

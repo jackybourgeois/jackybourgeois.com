@@ -1,6 +1,8 @@
 ---
 title: "🎓 A strategic design of a data-driven, in-vehicle service system"
-author: "Laetitia van Wijnen (Chair: **Jacky Bourgeois**, Mentor: Dirk Snelders, Company Mentor: Alexandra Holz)"
+author: laetitia
+chair: jacky
+mentor: dirk
 date: 2021-12-21
 categories: [Education,🎓Graduation Projects]
 tags: [Master 🎓,IDE 🎓,Ford 💰,Data-Centric Design 📊, Data Tool 📊, Electric Vehicle ⚡]

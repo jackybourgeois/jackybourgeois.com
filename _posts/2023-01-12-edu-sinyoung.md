@@ -1,6 +1,8 @@
 ---
 title: "🎓 Towards Designerly Data Donation in Practice"
-author: "Sinyoung Ahn (Chair: **Jacky Bourgeois**, Mentor: Christina Schneegaa, Company Mentor: Remco Appel)"
+author: sinyoung
+chair: jacky
+mentor: christina
 date: 2023-01-12
 categories: [Education, 🎓Graduation Projects]
 tags: [Master 🎓, IDE 🎓, The Valley 💰, Data-Centric Design 📊, Data Donation 📊]

@@ -1,6 +1,8 @@
 ---
 title: "🎓 Not so big: Making data less overwhelming for designers"
-author: "Jiahao Lu (Chair: **Jacky Bourgeois**, Mentor: Milene Guerreiro Gancalves"
+author: jiahao
+chair: jacky
+mentor: milene
 date: 2020-11-23
 categories: [Education,🎓Graduation Projects]
 tags: [Master 🎓,IDE 🎓,Data Tool 📊]
