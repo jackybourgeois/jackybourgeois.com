@@ -1,5 +1,5 @@
 ---
-title: "🚧 DataSlip"
+title: "🚧 DataSlip in Utrecht for a SURF event"
 authors: [alejandra,jacky]
 date: 2023-03-17
 categories: [Research, 🚧 Projects]
