@@ -1,6 +1,8 @@
 ---
 title: "🎓 The making of a smart pillow"
-author: "Tjapko Vermeulen (Chair: Marco Rozendaal, Mentor: **Jacky Bourgeois**)"
+author: tjapko
+chair: marco
+mentor: jacky
 date: 2020-06-10
 categories: [Education,🎓Graduation Projects]
 tags: [Master 🎓,IDE 🎓,Object with Intent 🪚,Data-Enabled Design 📊]

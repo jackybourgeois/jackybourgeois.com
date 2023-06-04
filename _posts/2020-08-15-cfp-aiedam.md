@@ -1,6 +1,6 @@
 ---
 title: "📅 Call for Paper AIEDAM Thematic Collection - Perspectives on Data-Enabled Design"
-author: "**Jacky Bourgeois**, Maaike Kleinsmann"
+authors: [jacky,maaike]
 date: 2020-08-15
 categories: [📅 Events]
 tags: [AIEDAM 🎯,Data-Enabled Design 📊]

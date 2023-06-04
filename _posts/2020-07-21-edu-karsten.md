@@ -1,6 +1,8 @@
 ---
 title: "🎓 Digital lockout routines"
-author: "Karsten Bakker (Chair: **Jacky Bourgeois**, Mentor: Martien Bakker)"
+author: karsten
+chair: jacky
+mentor: Martien
 date: 2020-07-21
 categories: [Education,🎓Graduation Projects]
 tags: [Master 🎓,IDE 🎓,TWTG 💰]

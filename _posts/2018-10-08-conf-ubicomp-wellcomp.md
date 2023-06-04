@@ -1,6 +1,6 @@
 ---
 title: "📜 UbiComp'18 Towards a Domain-Specific Design Platform for Wheelchair User Well-being"
-author: "**Jacky Bourgeois**, Songshan Liu, Gerd Kortuem, Derek Lomas"
+authors: [jacky,songshan,gerd,derek]
 date: 2018-10-08
 categories: [Research,📜 Publications]
 tags: [Workshop 📘,UbiComp 🎯,Internet of Things 📱,Prototyping 🪚, Health 🍎]

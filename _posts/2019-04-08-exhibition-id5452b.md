@@ -1,6 +1,6 @@
 ---
 title: "📅 Exhibition - Prototyping Connected Product"
-author: "Jacky Bourgeois"
+author: jacky
 date: 2019-04-08
 categories: [📅 Events]
 tags: [IDE 🎓,Master 🎓,ID5452B 📖,Exhibition 📅,Wheelchair 🍎,Prototyping 🪚]

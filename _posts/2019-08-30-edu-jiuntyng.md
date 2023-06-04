@@ -1,6 +1,8 @@
 ---
 title: "🎓 Explore the untapped digital data of neglected tropical disease, and provide insights for stakeholders to take strategic actions"
-author: "Juin-Tyng Dai (Chair: Jan-Carel Diehl, Mentor: **Jacky Bourgeois**)"
+author: juintyng
+chair: jc
+mentor: jacky
 date: 2019-08-30
 categories: [Education,🎓Graduation Projects]
 tags: [Master 🎓,IDE 🎓,Data Tool 📊,Sustainability 🌱]

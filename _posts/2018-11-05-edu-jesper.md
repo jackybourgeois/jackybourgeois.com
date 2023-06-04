@@ -1,6 +1,8 @@
 ---
 title: "🎓 Flowy: Designing an assistive wearable technology for children with AD(H)D that increases attention in class"
-author: "Jesper Voorendt (Chair: Jos Oberdof, Mentor: **Jacky Bourgeois**)"
+author: jesper
+chair: jos
+mentor: jacky
 date: 2018-11-05
 categories: [Education,🎓Graduation Projects]
 tags: [Master 🎓,IDE 🎓,PilotFish 💰,ADHD 🍎,Wearable 📱,Haptic Feedback 📱,Behaviour Change 🍎]

@@ -1,6 +1,8 @@
 ---
 title: "🎓 Understanding the values in the context of Wi-Fi access data"
-author: "Xueyao Wang (Chair: **Jacky Bourgeois**, Mentor: Kars Alfrink)"
+author: xueyao
+chair: jacky
+mentor: kars
 date: 2019-09-26
 categories: [Education,🎓Graduation Projects]
 tags: [Master 🎓,IDE 🎓,WiFi Data 📊, Data-Centric Design 📊,Value-Sensitive Design 🪚,Responsibility 👐🏼]

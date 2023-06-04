@@ -1,6 +1,8 @@
 ---
 title: "🎓 A Day in a Wheelchair"
-author: "Dhaval Shah (Chair: Ranga Rao Venkatesha Prasad, Mentor: Gerd Kortuem, **Jacky Bourgeois**)"
+author: dhaval
+chair: vp
+mentor: jacky
 date: 2019-06-17
 categories: [Education,🎓Graduation Projects]
 tags: [Master 🎓,EEMCS 🎓,Wheelchair 🍎,Wearable 📱,Machine Learning 📱]

@@ -67,6 +67,22 @@ tail_includes:
       {% else %}
         <a href="{{ site.social.links[0] }}">{{ site.social.name }}</a>
       {% endif %}
+
+      {% if page.chair or page.mentor %}
+        under the supervision of 
+        {% if page.chair %}
+        <a href="{{ site.data.authors[page.chair].url }}">
+          {{ site.data.authors[page.chair].name }}
+        </a>
+        {% endif %}
+
+        {% if page.mentor %}
+        and 
+        <a href="{{ site.data.authors[page.mentor].url }}">
+          {{ site.data.authors[page.mentor].name }}
+        </a>
+        {% endif %}
+      {% endif %}
       </em>
     </span>
 
