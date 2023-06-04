@@ -1,7 +1,7 @@
 ---
 title: "🚧 IoT Rapid-Proto Labs Kickoff"
 author: "Jacky Bourgeois"
-date: 2018-02-03 11:33:00 +0000
+date: 2018-02-03
 categories: [Research, 🚧 Projects]
 tags: [Education 🎓, Internet of Things 📱, Prototyping 🪚]
 math: true

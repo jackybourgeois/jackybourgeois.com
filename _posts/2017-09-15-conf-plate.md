@@ -1,7 +1,7 @@
 ---
 title: "📜 PLATE'17 On the meaningfulness of data in product design for lifetime optimization"
 author: "Eleonora Fiore, **Jacky Bourgeois**"
-date: 2017-09-15 19:05:00 +0000
+date: 2017-09-15
 categories: [Research,📜 Publications]
 tags: [Conference 📗,PLATE 🎯]
 math: true
