@@ -1,7 +1,7 @@
 ---
 title: "📜 SustainIT'15 'Interactive demand shifting'"
-author: "Jacky Bourgeois"
-date: 2015-04-14 19:05:00 +0000
+author: jacky
+date: 2015-04-14
 categories: [Research,📜 Publications]
 tags: [Conference 📗,SustainIT 🎯,Energy ⚡,Participatory Data Analysis 📊, Electric Vehicle ⚡]
 math: true

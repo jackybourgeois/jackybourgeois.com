@@ -1,7 +1,7 @@
 ---
 title: "📜 Sustainable Load Shifting in the Context of Domestic Energy Generation"
-author: "**Jacky Bourgeois**, Janet van der Linden, Blaine A. Price, Gerd Kortuem"
-date: 2013-09-08 19:05:00 +0000
+authors: [jacky,janet,blain,gerd]
+date: 2013-09-08
 categories: [Research,📜 Publications]
 tags: [Doctoral School 📘, UbiComp 🎯,Energy ⚡,Participatory Data Analysis 📊, Solar Panel ⚡]
 math: true

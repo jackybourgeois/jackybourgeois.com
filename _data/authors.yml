@@ -7,11 +7,36 @@
 # -------------------------------------
 
 jacky:
-  name: Jacky Bourgeois
+  name: "**Jacky Bourgeois**"
   twitter: jackybourgeois
   url: https://jackybourgeois.com
 
-sille_bille:
-  name: Dinesh Prasanth Moluguwan Krishnamoorthy
-  twitter: dinesh_MKD
-  url: https://github.com/SilleBille/
+gerd:
+  name: Gerd Kortuem
+  twitter:
+  url:
+
+janet:
+  name: Janet van der Linden
+  twitter:
+  url:
+
+blaine:
+  name: Blaine Price
+  twitter:
+  url:
+
+christopher:
+  name: Christopher Rimmer
+  twitter:
+  url:
+
+johann:
+  name: Johann Bourcier
+  twitter:
+  url:
+
+benoit:
+  name: Benoit Baudry
+  twitter:
+  url:

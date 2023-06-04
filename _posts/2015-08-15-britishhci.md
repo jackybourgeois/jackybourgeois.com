@@ -1,7 +1,7 @@
 ---
 title: "📜 BritishHCI'15 Understanding and Supporting Emerging Domestic Energy Practices"
-author: "**Jacky Bourgeois**, Gerd Kortuem, Benoit Baudry, Janet van der Linden, Johann Bourcier, Blaine A. Price"
-date: 2015-07-15 19:05:00 +0000
+authors: [jacky,gerd,benoit,janet,johann,blaine]
+date: 2015-07-15
 categories: [Research,📜 Publications]
 tags: [Workshop 📘,BritishHCI 🎯,Energy ⚡]
 math: true

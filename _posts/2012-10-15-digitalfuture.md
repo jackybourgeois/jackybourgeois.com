@@ -1,7 +1,7 @@
 ---
 title: "📜 Digital Future Information Interfaces for Domestic Energy Microgeneration"
-author: "Gerd Kortuem, Janet van der Linden, Blaine Price, **Jacky Bourgeois**"
-date: 2012-10-15 19:05:00 +0000
+authors: [gerd,janet,blaine,jacky]
+date: 2012-10-15
 categories: [Research,📜 Publications]
 tags: [Conference 📗,Digital Future 🎯, Energy ⚡,Participatory Data Analysis 📊, Solar Panel ⚡]
 pdf: "kortuem_de_2012.pdf"
