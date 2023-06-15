@@ -1,6 +1,6 @@
 ---
 title: "📅 DatEthics - MobileHCI'20 Workshop"
-authors: [jacky,aaron,jered,ella]
+authors: [jacky,aaron,jered,ellaP]
 date: 2020-09-24
 categories: [📅 Events]
 tags: [MobileHCI 🎯,Responsibility 👐🏼]
