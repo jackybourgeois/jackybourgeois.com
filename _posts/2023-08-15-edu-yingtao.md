@@ -12,7 +12,7 @@ image:
   alt: "CRC Patient Journey Map"
 ---
 
-Earlier this month, I had the pleasure of being on the graduation committee of Yingtao Sun for her Master thesis, 'A toolkit for developing remote patient monitoring in social, daily activity and related emotion'. She developed a [CRC patient journey map](/assets/pdf/yingtao-patient-journey.pdf) using a mix of data processing and user-centred method to highlight the need for more attention to social and mental health, in complement to physical health, in remote-patient monitoring of cancer survivors.
+Earlier this month, I had the pleasure of being on the graduation committee of [Yingtao Sun](https://www.linkedin.com/in/yingtao-sun/) for her Master thesis, 'A toolkit for developing remote patient monitoring in social, daily activity and related emotion'. She developed a [CRC patient journey map](/assets/pdf/yingtao-patient-journey.pdf) using a mix of data processing and user-centred method to highlight the need for more attention to social and mental health, in complement to physical health, in remote-patient monitoring of cancer survivors.
 
 She offers [Guidelines](https://6b856975-1ffd-428a-b8b3-12ac9a7df85f.filesusr.com/ugd/77cb5a_72ee3ede9fb6485aa09deca13e813644.pdf) for developing remote-patient monitoring in social and daily activities and related emotions. You can also use her [toolkit](https://6b856975-1ffd-428a-b8b3-12ac9a7df85f.filesusr.com/ugd/77cb5a_ebb5fc0416974ffc852e119dd7b2ad44.pdf) to explore remote-patient monitoring in different contexts.
 
