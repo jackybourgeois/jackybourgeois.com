@@ -6,6 +6,9 @@ categories: [Research,📜 Publications]
 tags: [Journal 📕,AISociety 🎯]
 pin: false
 pdf: "gomez_ortega_aisoc_2023.pdf"
+image:
+  path: /assets/img/aisoc-2023.png
+  alt: "Survey responses indicating donors perceptions of the data exploration tool"
 ---
 
 Together with Alejandra Gomez Ortega, Wiebke Hutiri and Gerd Kortuem, we published a article in AI&Society 'Beyond data transactions: a framework for meaningfully informed data donation'. We discuss the opaque nature of personal data and what it means for informed consent in data donation.
