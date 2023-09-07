@@ -11,7 +11,7 @@ image:
   alt: "Survey responses indicating donors perceptions of the data exploration tool"
 ---
 
-Together with Alejandra Gomez Ortega, Wiebke Hutiri and Gerd Kortuem, we published a article in AI&Society 'Beyond data transactions: a framework for meaningfully informed data donation'. We discuss the opaque nature of personal data and what it means for informed consent in data donation.
+Together with Alejandra Gomez Ortega, Wiebke Toussaint Hutiri and Gerd Kortuem, we published a article in AI&Society 'Beyond data transactions: a framework for meaningfully informed data donation'. We discuss the opaque nature of personal data and what it means for informed consent in data donation.
 
 
 ## Abstract
