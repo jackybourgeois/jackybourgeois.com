@@ -7,7 +7,7 @@ tags: [Data-Centric Design 📊]
 pin: false
 image:
   path: /assets/img/drive-2023.png
-  alt: Data-Centric Design Symposium
+  alt: DRIVE Festival 2023
 ---
 
 Where do we go? What do we eat? How do we exercise, sleep and feel? Through mobile apps and sensors, the Internet of Things has empowered everyone to capture detailed pictures of their life. The highly dynamic nature of this data makes it deeply intertwined with people, their behavior, and their experiences: an excellent material for subjective inquiry.

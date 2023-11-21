@@ -7,7 +7,7 @@ tags: [Data-Centric Design 📊]
 pin: false
 image:
   path: /assets/img/ddw-making-matters-2023.png
-  alt: Data-Centric Design Symposium
+  alt: Design United Making Matters at the Dutch Design Week 2023
 ---
 
 Together with Amy Winters (TU Eindhoven) we wrapped the Dutch Design Week with the Making Matters dialogue as part of Design United.
