@@ -4,7 +4,7 @@ author: jacky
 date: 2023-09-06
 categories: [📅 Events]
 tags: [Data-Centric Design 📊]
-pin: false
+pin: true
 image:
   path: /assets/img/symposium.png
   alt: Data-Centric Design Symposium
