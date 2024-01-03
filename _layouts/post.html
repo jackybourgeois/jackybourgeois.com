@@ -2,11 +2,11 @@
 layout: default
 refactor: true
 panel_includes:
-  - toc
+- toc
 tail_includes:
-  - related-posts
-  - post-nav
-  - comments
+- related-posts
+- post-nav
+- comments
 ---
 
 {% include lang.html %}
@@ -24,210 +24,174 @@ tail_includes:
 
       <!-- lastmod date -->
       {% if page.last_modified_at and page.last_modified_at != page.date %}
-        <span>
-          {{ site.data.locales[lang].post.updated }}
-          {% include datetime.html date=page.last_modified_at tooltip=true lang=lang %}
-        </span>
+      <span>
+        {{ site.data.locales[lang].post.updated }}
+        {% include datetime.html date=page.last_modified_at tooltip=true lang=lang %}
+      </span>
       {% endif %}
 
       {% if page.image %}
-        {% capture src %}src="{{ page.image.path | default: page.image }}"{% endcapture %}
-        {% capture class %}class="preview-img{% if page.image.no_bg %}{{ ' no-bg' }}{% endif %}"{% endcapture %}
-        {% capture alt %}alt="{{ page.image.alt | xml_escape | default: "Preview Image" }}"{% endcapture %}
+      {% capture src %}src="{{ page.image.path | default: page.image }}"{% endcapture %}
+      {% capture class %}class="preview-img{% if page.image.no_bg %}{{ ' no-bg' }}{% endif %}"{% endcapture %}
+      {% capture alt %}alt="{{ page.image.alt | xml_escape | default: "Preview Image" }}"{% endcapture %}
 
-        {% if page.image.lqip %}
-          {%- capture lqip -%}lqip="{{ page.image.lqip }}"{%- endcapture -%}
-        {% endif %}
+      {% if page.image.lqip %}
+      {%- capture lqip -%}lqip="{{ page.image.lqip }}"{%- endcapture -%}
+      {% endif %}
 
-        <div class="mt-3 mb-3">
-          <img {{ src }} {{ class }} {{ alt }} w="1200" h="630" {{ lqip }}>
-          {%- if page.image.alt -%}
-            <figcaption class="text-center pt-2 pb-2">{{ page.image.alt }}</figcaption>
-          {%- endif -%}
-        </div>
+      <div class="mt-3 mb-3">
+        <img {{ src }} {{ class }} {{ alt }} w="1200" h="630" {{ lqip }}>
+        {%- if page.image.alt -%}
+        <figcaption class="text-center pt-2 pb-2">{{ page.image.alt }}</figcaption>
+        {%- endif -%}
+      </div>
       {% endif %}
 
       <div class="d-flex justify-content-between">
         <!-- author(s) -->
         <span>
           {% if page.author %}
-            {% assign authors = page.author %}
+          {% assign authors = page.author %}
           {% elsif page.authors %}
-            {% assign authors = page.authors %}
+          {% assign authors = page.authors %}
           {% endif %}
 
           {{ site.data.locales[lang].post.written_by }}
 
           <em>
             {% if authors %}
-              {% for author in authors %}
-                {% if site.data.authors[author].url -%}
-                  <a href="{{ site.data.authors[author].url }}">{{ site.data.authors[author].name }}</a>
-                {%- else -%}
-                  {{ site.data.authors[author].name }}
-                {%- endif %}
-                {% unless forloop.last %}{{ '</em>, <em>' }}{% endunless %}
-              {% endfor %}
+            {% for author in authors %}
+            {% if site.data.authors[author].url -%}
+            <a href="{{ site.data.authors[author].url }}">{{ site.data.authors[author].name }}</a>
+            {%- else -%}
+            {{ site.data.authors[author].name }}
+            {%- endif %}
+            {% unless forloop.last %}{{ '</em>, <em>' }}{% endunless %}
+            {% endfor %}
             {% else %}
-              <a href="{{ site.social.links[0] }}">{{ site.social.name }}</a>
+            <a href="{{ site.social.links[0] }}">{{ site.social.name }}</a>
             {% endif %}
           </em>
         </span>
-
-        <!-- read time -->
-        {% include read-time.html content=content prompt=true lang=lang %}
       </div>
       <!-- .d-flex -->
     </div>
     <!-- .post-meta -->
   </header>
 
-  <div class="content">
-    {{ content }}
-  </div>
-
   <div class="post-tail-wrapper text-muted">
     <!-- categories -->
     {% if page.categories.size > 0 %}
-      <div class="post-meta mb-3">
-        <i class="far fa-folder-open fa-fw me-1"></i>
-        {% for category in page.categories %}
-          <a href="{{ site.baseurl }}/activities/{{ category | slugify | url_encode }}/">{{ category }}</a>
-          {%- unless forloop.last -%},{%- endunless -%}
-        {% endfor %}
-      </div>
+    <div class="post-meta mb-3">
+      <i class="far fa-folder-open fa-fw me-1"></i>
+      {% for category in page.categories %}
+      <a href="{{ site.baseurl }}/activities/{{ category | slugify | url_encode }}/">{{ category }}</a>
+      {%- unless forloop.last -%},{%- endunless -%}
+      {% endfor %}
+    </div>
     {% endif %}
 
     <!-- tags -->
     {% if page.tags.size > 0 %}
-      <div class="post-tags">
-        <i class="fa fa-tags fa-fw me-1"></i>
-        {% for tag in page.tags %}
-          <a
-            href="{{ site.baseurl }}/topics/{{ tag | slugify | url_encode }}/"
-            class="post-tag no-text-decoration"
-          >
-            {{- tag -}}
-          </a>
-        {% endfor %}
-      {% else %}
-        <a href="{{ site.social.links[0] }}">{{ site.social.name }}</a>
-      {% endif %}
-
-      {% if page.chair or page.mentor %}
-        under the supervision of 
-        {% if page.chair %}
-        <a href="{{ site.data.authors[page.chair].url }}">
-          {{ site.data.authors[page.chair].name }}
-        </a>
-        {% endif %}
-
-        {% if page.mentor %}
-        and 
-        <a href="{{ site.data.authors[page.mentor].url }}">
-          {{ site.data.authors[page.mentor].name }}
-        </a>
-        {% endif %}
-      {% endif %}
-
-      {% if page.speaker %}
-        with
-        <a href="{{ site.data.authors[page.speaker].url }}">
-          {{ site.data.authors[page.speaker].name }}
-        </a>
-      {% endif %}
-      </em>
-    </span>
-
-    <div>
-      <!-- page views -->
-      {% if site.google_analytics.pv.proxy_endpoint or site.google_analytics.pv.cache_path %}
-      <span>
-        <em id="pv" class="pageviews">
-          <i class="fas fa-spinner fa-spin fa-fw"></i>
-        </em>
-        {{ site.data.locales[lang].post.pageview_measure }}
-      </span>
-      {% endif %}
-
-      <!-- read time -->
-      {% include read-time.html content=content prompt=true lang=lang %}
-    </div>
-
-  </div> <!-- .d-flex -->
-
-</div> <!-- .post-meta -->
-
-<div class="post-content">
-  {% if page.podcast %}
-  <div style="text-align:center;margin:30px">
-    <div>
-      <audio controls>
-        <source src="{{ page.podcast }}" type="audio/ogg">
-      </audio>
-    </div>
-    <div>
-      <a href="{{ site.baseurl }}{{ page.podcast }}" download="{{ page.title }}" style="text-decoration: none;"
-        target="_blank" rel="noopener noreferrer">
-        <i class="fa fa-download" aria-hidden="true"></i>Download Podcast Episode
-      </a>&nbsp;-&nbsp;
-      <a href="{{ site.baseurl }}/podcast.xml" style="text-decoration: none;" target="_blank"
-        rel="noopener noreferrer">
-        <i class="fa fa-rss" aria-hidden="true"></i>Podcast RSS
-      </a>&nbsp;-&nbsp;
-      <a href="https://podcasts.apple.com/nl/podcast/data-centric-design/id1581554015" style="text-decoration: none;" target="_blank"
-      rel="noopener noreferrer">
-        Listen on Apple Podcast
-      </a>
-    </div>
-  </div>
-
-  {% endif %}
-
-  {{ content }}
-</div>
-
-<div class="post-tail-wrapper text-muted">
-
-  <!-- categories -->
-  {% if page.categories.size > 0 %}
-  <div class="post-meta mb-3">
-    <i class="far fa-folder-open fa-fw me-1"></i>
-    {% for category in page.categories %}
-      <a href='{{ site.baseurl }}/activities/{{ category | slugify | url_encode }}/'>{{ category }}</a>
-      {%- unless forloop.last -%}, {%- endunless -%}
-    {% endfor %}
-  </div>
-  {% endif %}
-
-  <!-- tags -->
-  {% if page.tags.size > 0 %}
-  <div class="post-tags">
-    <i class="fa fa-tags fa-fw me-1"></i>
+    <div class="post-tags">
+      <i class="fa fa-tags fa-fw me-1"></i>
       {% for tag in page.tags %}
-      <a href="{{ site.baseurl }}/topics/{{ tag | slugify | url_encode }}/"
-          class="post-tag no-text-decoration" >
+      <a href="{{ site.baseurl }}/topics/{{ tag | slugify | url_encode }}/" class="post-tag no-text-decoration">
         {{- tag -}}
       </a>
       {% endfor %}
+      {% else %}
+      <a href="{{ site.social.links[0] }}">{{ site.social.name }}</a>
+      {% endif %}
+
+      {% if page.chair or page.mentor %}
+      under the supervision of
+      {% if page.chair %}
+      <a href="{{ site.data.authors[page.chair].url }}">
+        {{ site.data.authors[page.chair].name }}
+      </a>
+      {% endif %}
+
+      {% if page.mentor %}
+      and
+      <a href="{{ site.data.authors[page.mentor].url }}">
+        {{ site.data.authors[page.mentor].name }}
+      </a>
+      {% endif %}
+      {% endif %}
+
+      {% if page.speaker %}
+      with
+      <a href="{{ site.data.authors[page.speaker].url }}">
+        {{ site.data.authors[page.speaker].name }}
+      </a>
+      {% endif %}
+      </em>
+      </span>
+
+      <div>
+        <!-- page views -->
+        {% if site.google_analytics.pv.proxy_endpoint or site.google_analytics.pv.cache_path %}
+        <span>
+          <em id="pv" class="pageviews">
+            <i class="fas fa-spinner fa-spin fa-fw"></i>
+          </em>
+          {{ site.data.locales[lang].post.pageview_measure }}
+        </span>
+        {% endif %}
+
+        <!-- read time -->
+        {% include read-time.html content=content prompt=true lang=lang %}
       </div>
+
+    </div> <!-- .d-flex -->
+
+  </div> <!-- .post-meta -->
+
+  <div class="post-content">
+    {% if page.podcast %}
+    <div style="text-align:center;margin:30px">
+      <div>
+        <audio controls>
+          <source src="{{ page.podcast }}" type="audio/ogg">
+        </audio>
+      </div>
+      <div>
+        <a href="{{ site.baseurl }}{{ page.podcast }}" download="{{ page.title }}" style="text-decoration: none;"
+          target="_blank" rel="noopener noreferrer">
+          <i class="fa fa-download" aria-hidden="true"></i>Download Podcast Episode
+        </a>&nbsp;-&nbsp;
+        <a href="{{ site.baseurl }}/podcast.xml" style="text-decoration: none;" target="_blank"
+          rel="noopener noreferrer">
+          <i class="fa fa-rss" aria-hidden="true"></i>Podcast RSS
+        </a>&nbsp;-&nbsp;
+        <a href="https://podcasts.apple.com/nl/podcast/data-centric-design/id1581554015" style="text-decoration: none;"
+          target="_blank" rel="noopener noreferrer">
+          Listen on Apple Podcast
+        </a>
+      </div>
+    </div>
+
     {% endif %}
 
-    <div
-      class="
+    {{ content }}
+  </div>
+
+  <div class="post-tail-wrapper text-muted">
+
+    <div class="
         post-tail-bottom
         d-flex justify-content-between align-items-center mt-5 pb-2
-      "
-    >
+      ">
       <div class="license-wrapper">
         {% if site.data.locales[lang].copyright.license.template %}
-          {% capture _replacement %}
+        {% capture _replacement %}
         <a href="{{ site.data.locales[lang].copyright.license.link }}">
           {{ site.data.locales[lang].copyright.license.name }}
         </a>
         {% endcapture %}
 
-          {{ site.data.locales[lang].copyright.license.template | replace: ':LICENSE_NAME', _replacement }}
+        {{ site.data.locales[lang].copyright.license.template | replace: ':LICENSE_NAME', _replacement }}
         {% endif %}
       </div>
 
