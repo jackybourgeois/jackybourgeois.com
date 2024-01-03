@@ -17,7 +17,7 @@ format: "video/mp4"
 podcast: "https://archive.org/download/dcdlab-conversation-bowyer/conversation-bowyer.mp4"
 season: 1
 episode: 3
-notes: "You can read more about Alex's research at http://research.alexbowyer.com and http://scholar.alexbowyer.com. He can be found on Twitter at @alexbfree. Join the Data-Centric Design channel to get in touch with our community: https://join.slack.com/t/data-centricdesign/shared_invite/zt-1izg8lchw-TYFzqOwMMCe2Ete9GHQfpQ"
+notes: "You can read more about Alex's research at https://research.alexbowyer.com and https://scholar.alexbowyer.com. He can be found on Twitter at @alexbfree. Join the Data-Centric Design channel to get in touch with our community: https://join.slack.com/t/data-centricdesign/shared_invite/zt-1izg8lchw-TYFzqOwMMCe2Ete9GHQfpQ"
 image:
   path: https://archive.org/download/dcdlab-conversation-bowyer/cover-conversation-bowyer.png
   alt: "Conversation with Alex Bowyer -  Understanding and Improving Human-Data Relations"
