@@ -16,7 +16,7 @@ On December 7, I hosted the [Data-Centric Design symposium](https://datacentricd
   <source src="https://archive.org/download/dcd-symposium/dcd-symposium-0-compilation.mp4" type="video/mp4">
 </video>
 
-If you missed it, you'll find the recordings below, the programme, and the visual notes.
+You'll find the recordings below, the programme, and the visual notes if you missed it.
 
 The event aimed to nurture the community and foster connections towards the Frontiers' Research Topic on '[Data-Centric Design: Data as Human-Centred Material](https://www.frontiersin.org/research-topics/58823/data-centric-design-data-as-a-human-centred-material)'. I invite you to contribute to this Research Topic by submitting your manuscript by February 25. Please share your ideas before the deadline so we can help you scope your contribution.
 
