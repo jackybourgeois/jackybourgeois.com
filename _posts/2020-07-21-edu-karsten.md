@@ -2,7 +2,7 @@
 title: "🎓 Digital lockout routines"
 author: karsten
 chair: jacky
-mentor: Martien
+mentor: martien
 date: 2020-07-21
 categories: [Education,🎓Graduation Projects]
 tags: [Master 🎓,IDE 🎓,TWTG 💰]
